@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
     <Card>
-          <img src='./assets/images/image-omelette.jpeg' alt='' style={{'width':'100%'}}/>
+          <img src='%PUBLIC_URL%/assets/images/image-omelette.jpeg' alt='' style={{'width':'100%'}}/>
           <div className='mobile-card'>
   
           <Intro/>   
