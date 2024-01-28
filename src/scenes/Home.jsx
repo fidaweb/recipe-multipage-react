@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
     <Card>
-          <img src="https://fidaweb.github.io/recipe-multipage-react/assets/images/image-omelette.jpeg" alt='' style={{'width':'100%'}}/>
+          <img src='%PUBLIC_URL%/assets/images/image-omelette.jpeg' alt='' style={{'width':'100%'}}/>
           <div className='mobile-card'>
   
           <Intro/>   
