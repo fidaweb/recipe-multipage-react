@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import {useDispatch,useSelector} from 'react-redux'
 import './Navbar.css'
@@ -7,9 +7,9 @@ import  { toggleTheme } from '../state/slices/themeSlice'
 const Navbar = () => {
 
   const themes=useSelector(state=>state.themes)
-  const [theme,setTheme]=useState(themes)
+ 
   const dispatch=useDispatch()
-  // console.log(theme)
+ 
   const changeTheme=()=>{
 
     dispatch(toggleTheme({themes}))
@@ -23,8 +23,8 @@ const Navbar = () => {
                 <Link className='link' to='/Instruction'>Instruction</Link>    
                 </div>
                 
-                <img id='theme' onClick={()=>{changeTheme()}} className='theme' src='./assets/images/light.svg' alt=''/>
-                
+                <img id='logo' onClick={()=>{changeTheme()}} className='theme' src='' alt=''/>
+               
                 
     </div>
   )

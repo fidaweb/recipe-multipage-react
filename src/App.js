@@ -1,10 +1,10 @@
 
 import './App.css';
 import Home from './scenes/Home.jsx';
-import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import NutritionPage from './scenes/NutritionPage.jsx';
 import IngredientsPage from './scenes/IngredientsPage.jsx';
-import Instruction from './components/Instruction.jsx';
+
 import InstructionPage from './scenes/InstructionPage.jsx';
 import Navbar from './components/Navbar.jsx';
 import { useSelector } from 'react-redux';
@@ -13,17 +13,17 @@ import { useEffect } from 'react';
 function App() {
   const themes=useSelector(state=>state.themes)
   const [theme,setTheme]=useState(themes)
-  const myBody=document.getElementById('myBody')
-  const logo=document.getElementById('theme')
+  let myBody=document.getElementById('myBody')
+  let logo=document.getElementById('logo')
   console.log(theme)
   if(theme===false){
     
     myBody.style.backgroundColor='black'
-    logo.setAttribute('src','./assets/images/dark.svg')
+    logo.setAttribute('src','https://fidaweb.github.io/recipe-multipage-react/assets/images/dark.svg')
   }
   else{
     myBody.style.backgroundColor='hsl(30, 54%, 90%)'
-    logo.setAttribute('src','./assets/images/light.svg')
+    logo.setAttribute('src','https://fidaweb.github.io/recipe-multipage-react/assets/images/light.svg')
   }
 useEffect(()=>{
   setTheme(themes)
