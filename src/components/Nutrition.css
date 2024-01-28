@@ -1,0 +1,48 @@
+.nutrition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+  }
+  .nutrition-intro{
+    width: 100%;
+    text-align: left;
+    
+  }
+  .nutrition-title{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 0 1rem 0;
+    color: var(--Nutmeg);
+  }
+  .table{
+    width: 100%;
+    
+  }
+  .nutrients{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 100%;
+    padding: 0.5rem 0;
+    border-top: 1px solid var(--Light-Grey);
+   
+  }
+  .nutrients span{
+    font-weight: 600;
+    text-align: left;
+    
+  }
+  .tag{
+   color: var(--Wenge-Brown);
+  }
+  .value{
+    width: 50%;
+    color: var(--Nutmeg);
+    font-weight: 600;
+  }
+  .nutrition-description{
+    color: var(--Wenge-Brown);
+  }

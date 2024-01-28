@@ -1,0 +1,43 @@
+.prep-title{
+    text-align:left;
+    width: 100%;
+    color: var(--Dark-Raspberry);
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .prep-list li{
+    display: flex;
+    padding: 1rem 0;
+    gap: 1rem;
+    align-items: center;
+  
+    
+  }
+  .prep-list span{
+    color: var(--Wenge-Brown);
+    font-weight: 700;
+  }
+
+  .prep-list .dot{
+    background-color: var(--Dark-Raspberry);
+  }
+  .prep-dot{
+    display: flex;
+    color: var(--Wenge-Brown);
+  }
+
+  .prep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Rose-White);
+    width: 100%;
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+  .prep-list{
+    width: 100%;
+    list-style: lower-roman;
+    
+  }

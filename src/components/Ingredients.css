@@ -1,0 +1,30 @@
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0.5rem;
+  
+  }
+  .ingredients-title{
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--Nutmeg);
+  }
+  .ingredients-list{
+    width: 100%;
+  }
+  .ingredients-list li{
+    display: flex;
+    padding: 0.5rem 0;
+    gap: 1rem;
+    align-items: center;
+  }
+  .ing-dot{
+    color: var(--Wenge-Brown);
+    text-align: left;
+  }
+  
