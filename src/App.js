@@ -19,11 +19,11 @@ function App() {
   if(theme===false){
     
     myBody.style.backgroundColor='black'
-    logo.setAttribute('src','./assets/images/dark.svg')
+    logo.setAttribute('src','%PUBLIC_URL%/assets/images/dark.svg')
   }
   else{
     myBody.style.backgroundColor='hsl(30, 54%, 90%)'
-    logo.setAttribute('src','./assets/images/light.svg')
+    logo.setAttribute('src','%PUBLIC_URL%/assets/images/light.svg')
   }
 useEffect(()=>{
   setTheme(themes)
