@@ -13,6 +13,9 @@ import { useEffect } from 'react';
 function App() {
   const themes=useSelector(state=>state.themes)
   const [theme,setTheme]=useState(themes)
+  
+  
+useEffect(()=>{
   let myBody=document.getElementById('myBody')
   let dark=document.getElementById('dark')
   let light=document.getElementById('light')
@@ -29,9 +32,12 @@ function App() {
     dark.style.display='none'
     light.style.display='block'
   }
-useEffect(()=>{
   setTheme(themes)
-},[themes])
+},[themes,])
+
+  
+  
+
 
   return (
     <div className="App">

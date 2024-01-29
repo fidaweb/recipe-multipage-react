@@ -24,7 +24,7 @@ const Navbar = () => {
                 </div>
                 
                 <img id='dark' onClick={()=>{changeTheme()}} className='theme' src='assets/images/dark.svg' alt='img'/>
-                <img id='light' onClick={()=>{changeTheme()}} className='theme' src='assets/images/dark.svg' alt='img'/>
+                <img id='light' onClick={()=>{changeTheme()}} className='theme' src='assets/images/light.svg' alt='img'/>
                
                 
     </div>
