@@ -19,11 +19,11 @@ function App() {
   if(theme===false){
     
     myBody.style.backgroundColor='black'
-    // logo.setAttribute('src',' assets/images/dark.svg')
+    logo.setAttribute('src','assets/images/dark.svg')
   }
   else{
     myBody.style.backgroundColor='hsl(30, 54%, 90%)'
-    // logo.setAttribute('src','assets/images/light.svg')
+    logo.setAttribute('src','assets/images/light.svg')
   }
 useEffect(()=>{
   setTheme(themes)
@@ -32,19 +32,14 @@ useEffect(()=>{
   return (
     <div className="App">
         <Router>
-            {/* <nav>
-                <Link to='/'>Home</Link>
-                <Link to='/NutritionPage'>Nutrition</Link>
-                <Link to='/Ingredients'>Ingredients</Link>
-                <Link to='/Instruction'>Instruction</Link>
-            </nav> */}
+          
             
             <Navbar/>
             <Routes>              
-               <Route path='/' element={<Home/>}/>
-               <Route path='/NutritionPage' element={<NutritionPage/>}/>
-               <Route path='/Ingredients' element={<IngredientsPage/>}/>
-               <Route path='/Instruction' element={<InstructionPage/>}/>
+               <Route path='/recipe-multipage-react' element={<Home/>}/>
+               <Route path='/recipe-multipage-react/NutritionPage' element={<NutritionPage/>}/>
+               <Route path='/recipe-multipage-react/Ingredients' element={<IngredientsPage/>}/>
+               <Route path='/recipe-multipage-react/Instruction' element={<InstructionPage/>}/>
             </Routes>
             
         </Router>
