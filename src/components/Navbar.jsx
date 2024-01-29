@@ -23,7 +23,7 @@ const Navbar = () => {
                 <Link className='link' to='/Instruction'>Instruction</Link>    
                 </div>
                 
-                <img id='logo' onClick={()=>{changeTheme()}} className='theme' src='' alt=''/>
+                <img id='logo' onClick={()=>{changeTheme()}} className='theme' src='https://fidaweb.github.io/recipe-multipage-react/assets/images/dark.svg' alt='img'/>
                
                 
     </div>
