@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
     <Card>
-          <img src='https://fidaweb.github.io/recipe-multipage-react/assets/images/image-omelette.jpeg' alt='img' style={{'width':'100%'}}/>
+          <img src='assets/images/image-omelette.jpeg' alt='img' style={{'width':'100%'}}/>
           <div className='mobile-card'>
   
           <Intro/>   
