@@ -23,7 +23,8 @@ const Navbar = () => {
                 <Link className='link' to='/recipe-multipage-react/Instruction'>Instruction</Link>    
                 </div>
                 
-                <img id='logo' onClick={()=>{changeTheme()}} className='theme' src='assets/images/dark.svg' alt='img'/>
+                <img id='dark' onClick={()=>{changeTheme()}} className='theme' src='assets/images/dark.svg' alt='img'/>
+                <img id='light' onClick={()=>{changeTheme()}} className='theme' src='assets/images/dark.svg' alt='img'/>
                
                 
     </div>

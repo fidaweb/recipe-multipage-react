@@ -14,16 +14,20 @@ function App() {
   const themes=useSelector(state=>state.themes)
   const [theme,setTheme]=useState(themes)
   let myBody=document.getElementById('myBody')
-  let logo=document.getElementById('logo')
+  let dark=document.getElementById('dark')
+  let light=document.getElementById('light')
   console.log(theme)
   if(theme===false){
     
     myBody.style.backgroundColor='black'
-    logo.setAttribute('src','assets/images/dark.svg')
+    light.style.display='none'
+    dark.style.display='block'
+
   }
   else{
     myBody.style.backgroundColor='hsl(30, 54%, 90%)'
-    logo.setAttribute('src','assets/images/light.svg')
+    dark.style.display='none'
+    light.style.display='block'
   }
 useEffect(()=>{
   setTheme(themes)
