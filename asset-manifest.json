@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/recipe-multipage-react/static/css/main.dc3934ce.css",
+    "main.js": "/recipe-multipage-react/static/js/main.1bb0d84f.js",
+    "index.html": "/recipe-multipage-react/index.html",
+    "main.dc3934ce.css.map": "/recipe-multipage-react/static/css/main.dc3934ce.css.map",
+    "main.1bb0d84f.js.map": "/recipe-multipage-react/static/js/main.1bb0d84f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc3934ce.css",
+    "static/js/main.1bb0d84f.js"
+  ]
+}
