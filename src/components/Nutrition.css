@@ -46,3 +46,6 @@
   .nutrition-description{
     color: var(--Wenge-Brown);
   }
+.light{
+  display: none;
+}

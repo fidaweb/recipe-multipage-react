@@ -33,7 +33,7 @@ useEffect(()=>{
     light.style.display='block'
   }
   setTheme(themes)
-},[themes,])
+},[themes])
 
   
   
@@ -46,7 +46,7 @@ useEffect(()=>{
             
             <Navbar/>
             <Routes>              
-               <Route path='/recipe-multipage-react' element={<Home/>}/>
+               <Route path='/recipe-multipage-react/' element={<Home/>}/>
                <Route path='/recipe-multipage-react/NutritionPage' element={<NutritionPage/>}/>
                <Route path='/recipe-multipage-react/Ingredients' element={<IngredientsPage/>}/>
                <Route path='/recipe-multipage-react/Instruction' element={<InstructionPage/>}/>

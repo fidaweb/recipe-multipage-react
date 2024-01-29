@@ -17,14 +17,14 @@ const Navbar = () => {
   return (
     <div className='Navbar'>
                 <div className='links'>
-                <Link className='link' to='/recipe-multipage-react'>Home</Link>
+                <Link className='link' to='/recipe-multipage-react/'>Home</Link>
                 <Link className='link' to='/recipe-multipage-react/NutritionPage'>Nutrition</Link>
                 <Link className='link' to='/recipe-multipage-react/Ingredients'>Ingredients</Link>
                 <Link className='link' to='/recipe-multipage-react/Instruction'>Instruction</Link>    
                 </div>
                 
                 <img id='dark' onClick={()=>{changeTheme()}} className='theme' src='assets/images/dark.svg' alt='img'/>
-                <img id='light' onClick={()=>{changeTheme()}} className='theme' src='assets/images/light.svg' alt='img'/>
+                <img id='light' onClick={()=>{changeTheme()}} className='theme light' src='assets/images/light.svg' alt='img'/>
                
                 
     </div>
